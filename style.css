@@ -1,0 +1,29 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+body{
+margin: 0;
+padding: 0;
+/* background-image: url("./giphy.gif"); */
+background-size: cover;
+}
+
+.navbar-brand{
+    font-weight: 700;
+}
+
+#TotalConfirmed,
+#Countries,
+#Lastupdate,
+#NewDeath,
+#india{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+#home,
+#data{
+    font-weight: bold;
+}
