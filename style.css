@@ -20,7 +20,7 @@ background-size: cover;
        hsla(349, 94%, 58%, 0.34),
        hsla(349, 94%, 58%, 0.34) 100%
       );
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 #TotalConfirmed,
