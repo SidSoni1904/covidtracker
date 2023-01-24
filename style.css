@@ -14,6 +14,15 @@ background-size: cover;
     font-weight: 700;
 }
 
+.card:hover {
+ background: linear-gradient(
+        45deg,
+       hsla(349, 94%, 58%, 0.34),
+       hsla(349, 94%, 58%, 0.34) 100%
+      );
+    /* transform: scale(1.1); */
+}
+
 #TotalConfirmed,
 #Countries,
 #Lastupdate,
@@ -26,4 +35,21 @@ background-size: cover;
 #home,
 #data{
     font-weight: bold;
+}
+
+#form{
+    padding-top: 56px;
+    border-color: #dc3545;    
+}
+
+#contact{
+    font-weight: bolder;
+    text-align: center;
+    color: #dc3545;
+    
+}
+
+#btnsubmitcontact{
+  margin-top: 2%;
+  margin-bottom: 3%;
 }
