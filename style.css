@@ -58,7 +58,7 @@ background-size: cover;
 }
 
 .preloader-wrapper{
-    background: url(./worldcorona-unscreen.gif)  no-repeat center center ;
+    background: url(./loading_round.gif)  no-repeat center center ;
     backdrop-filter: blur(12px);
     top: 0;
     left: 0;
