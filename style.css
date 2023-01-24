@@ -6,6 +6,7 @@
 body{
 margin: 0;
 padding: 0;
+
 /* background-image: url("./giphy.gif"); */
 background-size: cover;
 }
@@ -22,6 +23,8 @@ background-size: cover;
       );
     /* transform: scale(1.1); */
 }
+
+
 
 #TotalConfirmed,
 #Countries,
@@ -52,4 +55,15 @@ background-size: cover;
 #btnsubmitcontact{
   margin-top: 2%;
   margin-bottom: 3%;
+}
+
+.preloader-wrapper{
+    background: url(./worldcorona-unscreen.gif)  no-repeat center center ;
+    backdrop-filter: blur(12px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
 }
